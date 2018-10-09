@@ -1,0 +1,64 @@
+/* TABLE */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+tbody tr {
+  border-top: solid thin #eaeaea;
+}
+tbody tr:hover {
+  background: lightgrey;
+}
+th,
+td {
+  padding: 10px;
+}
+
+/* MODAL */
+.modal__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: none;
+}
+.modal__container {
+    background: white;
+    border-radius: 3px;
+    max-width: 50%;
+
+}
+.modal__body {
+    display: flex;
+    flex-direction: row;
+    
+}
+#close-modal {
+  float: right;
+  cursor: pointer;
+}
+/* BUTTONS */
+.btn {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 3px;
+}
+.btn--basic {
+  color: steelblue;
+}
+
+/* LINKS */
+.link--blue {
+  cursor: pointer;
+  color: steelblue;
+}
